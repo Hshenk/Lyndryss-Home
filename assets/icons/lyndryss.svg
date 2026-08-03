@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <!-- The hub's own tab icon: third in the family (compass / W / L).
+       Dark centre keeps the light L legible on pale browser tab strips. -->
+  <circle cx="12" cy="12" r="10" fill="#14171c" stroke="#5aa9e6" stroke-width="2"/>
+  <path d="M9.5 7.5 9.5 16 15.5 16"
+        fill="none" stroke="#e3e6eb" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

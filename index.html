@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lyndryss</title>
+  <meta name="description" content="Campaign tools for the West Marches of Lyndryss.">
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/lyndryss.svg">
+
+  <!-- Amarante: the display font shared by every Lyndryss tool. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="hub">
+
+    <header class="hub-header">
+      <h1 class="hub-title">Lyndryss</h1>
+      <p class="hub-tagline">A West Marches campaign — its map, its chronicle,
+        and whatever the party drags back next.</p>
+    </header>
+
+    <!-- Adding a tool later: copy one <li> block, swap the href, icon,
+         title and description. The grid reflows on its own. -->
+    <ul class="tool-grid">
+
+      <li>
+        <a class="tool-card" href="https://map.lyndryss.com">
+          <img class="tool-card__icon" src="assets/icons/map.svg" alt="" width="52" height="52">
+          <h2 class="tool-card__title">The Map</h2>
+          <p class="tool-card__desc">An interactive map of the known world.
+            You see what your party has discovered — and the edges of what
+            it hasn't.</p>
+          <span class="tool-card__go">Open the map →</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="tool-card" href="https://wikilore.lyndryss.com">
+          <img class="tool-card__icon" src="assets/icons/wikilore.svg" alt="" width="52" height="52">
+          <h2 class="tool-card__title">WikiLore</h2>
+          <p class="tool-card__desc">The chronicle: people, places and
+            histories, written down as they're uncovered. Keep your own
+            notes alongside them.</p>
+          <span class="tool-card__go">Open the wiki →</span>
+        </a>
+      </li>
+
+    </ul>
+
+    <footer class="hub-footer">
+      Built for the table. Nothing here is canon until someone survives it.
+    </footer>
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <!-- The wiki's W-coin, display variant (transparent centre — the WikiLore
+       repo keeps a dark-filled copy for use as a browser tab icon). -->
+  <circle cx="12" cy="12" r="10" fill="none" stroke="#5aa9e6" stroke-width="2"/>
+  <path d="M7.5 8.5 9.5 15.5 12 10.2 14.5 15.5 16.5 8.5"
+        fill="none" stroke="#e3e6eb" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
