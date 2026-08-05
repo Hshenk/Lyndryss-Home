@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <!-- The tracker's quest diamond, display variant (transparent centre so it
+       matches its siblings on a card). Source of truth:
+       Lyndryss-Quests/assets/icons/quests.svg, which keeps the dark-filled
+       copy used as that site's browser tab icon. -->
+  <circle cx="12" cy="12" r="10" fill="none" stroke="#5aa9e6" stroke-width="2"/>
+  <path d="M12 6.5 16.2 12 12 17.5 7.8 12 Z"
+        fill="none" stroke="#e3e6eb" stroke-width="1.8" stroke-linejoin="round"/>
+</svg>
