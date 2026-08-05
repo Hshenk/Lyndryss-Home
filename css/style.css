@@ -84,9 +84,10 @@ body {
   padding: 0;
   width: 100%;
   display: grid;
-  /* auto-fit + minmax: two cards sit side by side, a third or fourth wraps
-     on its own, and everything collapses to one column on a phone. */
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  /* auto-fit + minmax: as many equal columns as fit (three at this width),
+     stretched to fill the row, collapsing to one column on a phone. Lower
+     the minimum if a fourth tool should share the top row too. */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 18px;
 }
 

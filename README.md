@@ -28,8 +28,9 @@ Full DNS/domain walkthrough: `WikiLore/docs/guide/10-custom-domain.md`.
 ## Adding a tool
 
 Copy one `<li>` block in `index.html`, swap the `href`, icon, title and
-description. The grid reflows by itself; a third card wraps to its own row
-on desktop and everything stacks on mobile.
+description. The grid reflows by itself: three cards share the top row on
+desktop, a fourth wraps below, and everything stacks on mobile. To fit four
+across, lower the `minmax()` minimum in `.tool-grid`.
 
 New icons: 24×24 viewBox, the shared `#5aa9e6` ring, a `#e3e6eb` glyph
 inside — see `assets/icons/`.
